@@ -1,0 +1,49 @@
+.logo-container{
+ width: 380px;
+ height: 380px;
+
+ display: block;
+ margin: auto;
+}
+
+.tela-inicio-container h2{
+ font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ color: rgb(27, 167, 85);
+}
+
+.container-verde{
+ margin-left: 700px;
+ display: flex; 
+ align-items: center; 
+ justify-content: center;
+ width: 520px;
+ height: 100px;
+
+ background: #C4EAB3;
+ box-shadow: 0px 4px 4px rgba(202, 202, 202, 0.25), 0px 4px 4px rgba(41, 41, 41, 0.25);
+ border-radius: 9px;
+}
+
+.iniciar-container{
+ margin-left: 840px;
+ margin-top: 125px;
+ height: 50px;
+ width: 250px;
+
+ font-size: 29px;
+ border-radius: 8px;
+ border: none;
+ background-color: rgb(255, 252, 215);
+ color: #6882FE;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iniciar-container:hover{
+ background-color:#6882FE;
+ color:  rgb(255, 252, 215);
+ transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s 
+}
+
+
