@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Tela_inicio from './Pages/Tela_inicio'
+import Tela_jogo from './Pages/Tela_jogo';
 function App (){
   return (
     <>

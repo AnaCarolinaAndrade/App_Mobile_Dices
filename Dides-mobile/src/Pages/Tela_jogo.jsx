@@ -1,8 +1,13 @@
 import React from 'react'
+import './Tela_jogo.css'
 
 function Tela_jogo() {
   return (
-    <div>Tela_jogo</div>
+    <div>
+      <img src='./Img/logo_dides.png' alt=''/>
+      <button className='container-jogar'>Jogar</button>
+      <button className='container-sair'>Sair</button>
+    </div>
   )
 }
 
